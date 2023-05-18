@@ -1,0 +1,8 @@
+https://www.freecodecamp.org/news/how-to-build-a-machine-learning-model-in-rust/
+https://www.nature.com/articles/s41598-022-11591-0
+https://blog.logrocket.com/machine-learning-in-rust-using-linfa/
+https://medium.com/swlh/machine-learning-in-rust-logistic-regression-74d6743df161
+https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning
+https://www.lpalmieri.com/posts/2019-12-01-taking-ml-to-production-with-rust-a-25x-speedup/
+https://acsess.onlinelibrary.wiley.com/doi/10.3835/plantgenome2017.11.0104
+https://aws.amazon.com/blogs/machine-learning/rust-detection-using-machine-learning-on-aws/

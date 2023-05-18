@@ -1,0 +1,8 @@
+- Use modules to organize code
+- Use enums to represent different types of data
+- Use traits to define common behavior
+- Use macros to reduce boilerplate code
+- Use error handling to handle unexpected situations
+- Use cargo to manage dependencies and build the library
+- Use Rust's ownership system to manage memory
+- Use Rust's type system to ensure type safety

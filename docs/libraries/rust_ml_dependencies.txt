@@ -1,0 +1,7 @@
+num = "0.1.42"
+num-integer = "0.1.45"
+num-iter = "0.1.43"
+num-traits = "0.2.15"
+rand = "0.4.6"
+libc = "0.2.144"
+rulinalg = { git = "https://github.com/AtheMathmo/rulinalg", rev = "1ed8b937" }
