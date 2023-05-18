@@ -1,0 +1,1 @@
+/home/arthur/workspace/ia/rust-machine-learning/rust_ml/target/debug/rust_ml: /home/arthur/workspace/ia/rust-machine-learning/rust_ml/src/main.rs
