@@ -1,13 +1,13 @@
 use fast_float::parse;
 use std::error::Error;
 
-pub fn read_csv() -> Result<(Vec<f64>, Vec<i32>), Box<dyn Error>> {
+pub fn read_csv(path: &str) -> Result<(Vec<f64>, Vec<i32>), Box<dyn Error>> {
     // This line declares a mutable variable named reader. The mut keyword indicates that the variable can be changed. The type of the variable will be inferred by the compiler
     // This part is a function call to the from_path method of the Reader type in the csv module.
     // It creates a new Reader instance that reads CSV data from the specified file path.
     // The path provided is /home/arthur/workspace/ia/rust-machine-learning/datasets/kc_house_data.csv.
     let mut reader = csv::Reader::from_path(
-        "/home/arthur/workspace/ia/rust-machine-learning/datasets/kc_house_data.csv",
+        path,
     )?;
     // The ? operator is used to propagate errors in Rust. In this context, it indicates that the function call may return an error, and if an error occurs, it will be returned from the main() function.
     // This requires the main() function to have a return type that supports returning an error, such as Result<(), Box<dyn std::error::Error>>
